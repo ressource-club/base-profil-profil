@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [[ -n $RESRC_BASE_VERSION ]]
+then
+    # Ajouter une variable de configuration.
+    # RESRC_BASE_CONFIGURATION+=(RESRC_BASE_README)
+
+    # Copier une ressource dans le projet
+    # RESRC_BASE_copier "ressource" 
+
+    # Configurer une ressource selon les variables de configuration.
+    # RESRC_BASE_configurer "ressource"
+fi
