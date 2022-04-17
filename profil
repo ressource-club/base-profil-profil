@@ -6,7 +6,7 @@ then
     RESRC_BASE_profil "resrc-base"
     
     RESRC_BASE_copier "profil"
-    RESRC_BASE_dossier "ressource"
+    RESRC_BASE_dossier "ressources"
 
     RESRC_BASE_configurer "profil"
 fi
