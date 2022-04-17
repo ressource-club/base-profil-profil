@@ -2,9 +2,6 @@
 
 if [[ -n $RESRC_BASE_VERSION ]]
 then
-    if [ -z "${RESRC_BASE_ORG_GITHUB}" ]
-    then RESRC_BASE_ORG_GITHUB="ressource-club"; fi
-
     RESRC_BASE_README="$(cat "${RESRC_BASE_PROFIL_DOSSIER}/ressources/README.md")"
     RESRC_BASE_profil "resrc-base"
     
